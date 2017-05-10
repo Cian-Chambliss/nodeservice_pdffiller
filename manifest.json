@@ -1,0 +1,15 @@
+{
+    "type": "node_service",
+    "node_service": "pdffiller",
+    "node-modules": [
+        "pdffiller-electron"
+    ],
+    "external-dependencies": [
+        {
+            "name": "pdfToolkit",
+            "description": "PDFtk is a simple tool for doing everyday things with PDF documents.",
+            "site": "https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/",
+            "download": "https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/pdftk_server-2.02-win-setup.exe"
+        }
+    ]
+}

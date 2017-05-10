@@ -1,0 +1,38 @@
+{
+    "methods": [
+        {
+            "name": "ExtractTemplate",
+            "returns": {
+                "type": "string"
+            },
+            "arguments": [
+                {
+                    "name": "filename",
+                    "type": "string"
+                }
+            ],
+            "description": "Returns a template for a PDF template."
+        },
+        {
+            "name": "FillinTemplate",
+            "returns": {
+                "type": "bool"
+            },
+            "arguments": [
+                {
+                    "name": "sourcefile",
+                    "type": "string"
+                },
+                {
+                    "name": "destfile",
+                    "type": "string"
+                },
+                {
+                    "name": "data",
+                    "type": "string"
+                }
+            ],
+            "description": "Construct a filled PDF from a template and JSON data."
+        }
+    ]
+}
